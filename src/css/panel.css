@@ -1,0 +1,30 @@
+.panel
+{
+    height: 100%;
+    display: flex;
+}
+
+.panel >
+{
+    height: 100%;
+}
+
+.child-space{
+    align-self: center;
+    margin-left: auto;
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+
+.child-end {
+    align-self: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 6px;
+}
+.child-begin {
+
+}
+    

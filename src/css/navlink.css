@@ -1,0 +1,53 @@
+.link{
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 24px;
+}
+
+.onClicklink li{
+    background: rgba(63, 140, 255, 0.1);
+    border-radius: 12px;
+}
+
+.link .onClicklink li img{
+    opacity: 100%;
+}
+
+.link li img{
+    opacity: 0%;
+    height: 50px;
+    top: 50%;
+    position: absolute;
+    right: -24px;
+    transform: translateY(-50%);
+}
+
+.link ul{
+    padding: 24px 24px;
+} 
+
+.link svg{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+
+.link ul li{
+    position: relative;
+    padding: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+    height: 24px;
+}
+
+.link a{
+    text-decoration:none;
+    vertical-align: middle;
+}
+
+.link ul li i{
+    padding-right: 12px;
+    font-size: 22px;
+    vertical-align: middle;
+}
