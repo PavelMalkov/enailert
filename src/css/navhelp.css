@@ -1,0 +1,45 @@
+.navhelp
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+
+    position: relative;
+
+    background: #000;
+    height: 168px;
+    background: rgba(63, 140, 255, 0.1);
+    border-radius: 24px;
+    margin: 12px;
+    margin-top: 45px;
+}
+
+.navhelp button
+{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    border: 0;
+    border-radius: 12px;
+    background: rgba(63, 140, 255, 1);
+    color: #fff;
+    width: 150px;
+    padding: 8px 0;
+    font-size: 22px;
+    margin: 12px;
+}
+
+.navhelp svg
+{
+    vertical-align: bottom;
+}
+
+.navhelp .illustration{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}

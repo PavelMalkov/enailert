@@ -19,8 +19,8 @@
     align-items: stretch;
     grid-auto-flow: row;
     grid-template-areas:
-      "nav header"
-      "nav header";
+      "left header"
+      "left header";
   }
   
 .container .header {
@@ -37,11 +37,11 @@
     flex: 1;
 }
 
-.container .nav {
-    grid-area: nav;
+.container .left {
+    grid-area: left;
 }
 
-.nav .logo{
+.left .logo{
     padding: 40px 24px 24px 24px;
 }
   
